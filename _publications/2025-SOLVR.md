@@ -1,0 +1,15 @@
+---
+title: 'SOLVR: Submap Oriented LiDAR-Visual Re-Localisation'
+collection: publications
+category: conferences
+permalink: https://ieeexplore.ieee.org/document/10160432
+excerpt: This paper proposes SOLVR, a unified pipeline for learning based LiDAR-Visual re-localisation which performs place recognition and 6-DoF registration across sensor modalities. We propose a strategy to align the input sensor modalities by leveraging stereo image streams to produce metric depth predictions with pose information, followed by fusing multiple scene views from a local window using a probabilistic occupancy framework to expand the limited field-of-view of the camera.  Furthermore, we replace RANSAC with a registration function that weights a simple least-squares fitting with the estimated inlier likelihood of sparse keypoint correspondences, improving performance in scenarios with a low inlier ratio between the query and retrieved place. Our experiments on the KITTI and KITTI360 datasets show that SOLVR achieves state-ofthe-art performance for LiDAR-Visual place recognition and registration, particularly improving registration accuracy over larger distances between the query and retrieved place.
+
+date: 2025-05-19
+venue: 'IEEE International Conference on Robotics and Automation (ICRA)'
+bibtexurl: https://scholar.googleusercontent.com/scholar.bib?q=info:7JNbgaiik4EJ:scholar.google.com/&output=citation&scisdr=CgIrYr3uEKrk9pmybEk:AAZF9b8AAAAAaFu0dEn5HzBNsGC1Hvq1BIPsPk4&scisig=AAZF9b8AAAAAaFu0dCUKCNypsp0dGGIACx8elfc&scisf=4&ct=citation&cd=-1&hl=en
+paperurl: https://arxiv.org/pdf/2409.10247
+citation: 'J. Knights, S.B. Laina, P. Moghadam and S. Leutenegger, <i>"SOLVR: Submap Oriented LiDAR-Visual Re-Localisation,"</i> 2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, United States, 2025'
+---
+
+This paper proposes SOLVR, a unified pipeline for learning based LiDAR-Visual re-localisation which performs place recognition and 6-DoF registration across sensor modalities. We propose a strategy to align the input sensor modalities by leveraging stereo image streams to produce metric depth predictions with pose information, followed by fusing multiple scene views from a local window using a probabilistic occupancy framework to expand the limited field-of-view of the camera.  Furthermore, we replace RANSAC with a registration function that weights a simple least-squares fitting with the estimated inlier likelihood of sparse keypoint correspondences, improving performance in scenarios with a low inlier ratio between the query and retrieved place. Our experiments on the KITTI and KITTI360 datasets show that SOLVR achieves state-ofthe-art performance for LiDAR-Visual place recognition and registration, particularly improving registration accuracy over larger distances between the query and retrieved place.
